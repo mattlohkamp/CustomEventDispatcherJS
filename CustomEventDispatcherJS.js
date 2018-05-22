@@ -1,5 +1,16 @@
- //  adapted from Dave Atchley: http://www.datchley.name/es6-eventemitter/
+	//	adapted from Dave Atchley: http://www.datchley.name/es6-eventemitter/
 
+/*
+	//	TODO: get back to this
+    <script>
+      let obj = new class Test extends EventEmitter { constructor(){  super() } }()
+      obj.test = true
+      obj.addEventListener('build',(e,a)=>console.log(a,e),true)
+      obj.dispatchEvent('build','testing')
+      obj.dispatchEvent('build','testing')
+    </script>
+*/
+ 
 'use strict'
 
 class CustomEvent {
